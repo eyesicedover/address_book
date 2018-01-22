@@ -6,28 +6,30 @@
 
 ## _Description_
 
-Webpage designed
+Webpage designed to take an input of first and last names. From that info it will create a list of names that you can click to access their full information.
 
 You can also view this project on gh-pages:
 https://eyesicedover.github.io/address_book/
 
 ## _Specifications_
 
-Program replaces 0 with "Beep!"
-* Example input: 0
-* Example output: "Beep!"
+Program takes first name
+* Example input: Stephanie
+* Example output:  Stephanie
 
-Program replaces 1 with "Boop!"
-* Example input: 1
-* Example output: "Boop!"
+Program takes multiple first names
+* Example input: Stephanie
+* Example input: Claire
+* Example output: * Stephanie * Claire
 
-Program replaces a number divisible by 3 with "I'm sorry, Dave. I'm afraid I can't do that."
-* Example input: 133
-* Example output: "I'm sorry, Dave. I'm afraid I can't do that."
+Program takes last names
+* Example input: Stephanie Faber
+* Example input: Claire Lyle
+* Example output:  * Stephanie Faber * Claire Lyle
 
-Program applies previous logic to a range of numbers determined by the user's input.
-* Example input: 10
-* Example output: BEEP! BOOP! 2 I'm sorry, Dave. I'm afraid I can't do that 4 5 I'm sorry, Dave. I'm afraid I can't do that 7 8 I'm sorry, Dave. I'm afraid I can't do that BOOP!
+Clicking on output name opens up contact info
+* Example input: (click on) Stephanie Faber
+* Example output: Stephanie, First Name: Stephanie, Last Name: Faber
 
 ## _Setup/Installation Requirements_
 
